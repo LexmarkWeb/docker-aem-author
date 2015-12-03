@@ -1,5 +1,5 @@
 # DOCKER-VERSION 1.0.1
-FROM LexmarkWeb/docker-aem-base
+FROM lexmarkweb/docker-aem-base
 MAINTAINER mikemarr 
 
 #Copies required build media
