@@ -6,6 +6,7 @@ MAINTAINER mikemarr
 ONBUILD ADD cq-author-4502.jar /aem/cq-author-4502.jar
 ONBUILD ADD license.properties /aem/license.properties
 ONBUILD ADD https://raw.githubusercontent.com/LexmarkWeb/docker-aem-author/master/postInstallHook.sh /aem/postInstallHook.sh
+ONBUILD RUN chmod +x /aem/postInstallHook.sh
 
 # Extracts AEM
 ONBUILD WORKDIR /aem
